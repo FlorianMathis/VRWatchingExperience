@@ -46,17 +46,17 @@ public class Video : MonoBehaviour
         Reset();
         rawImage.color = Color.black;
 
-        interval_0 = new int[] { 25, 48, 55, 111, 119 };
+        interval_0 = new int[] { 25, 48, 55, 111, 115 };
         interval_1 = new int[] { 25, 40, 55, 95, 105 };
         interval_2 = new int[] { 27, 35, 75, 85, 110 };
-        interval_3 = new int[] { 5, 14, 27, 35, 90 };
-        interval_4 = new int[] { 43, 52, 77, 86, 110 };
+        interval_3 = new int[] { 7, 14, 27, 35, 90 };
+        interval_4 = new int[] { 45, 54, 77, 86, 110 };
 
-        questions_C0 = new string[] { "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Q1Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!_A", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!" };
-        questions_C1 = new string[] { "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Q1Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!_A", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!" };
-        questions_C2 = new string[] { "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Q1Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!_A", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!" };
-        questions_C3 = new string[] { "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Q1Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!_A", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!" };
-        questions_C4 = new string[] { "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Q1Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!_A", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!", "Lorem Ipsum, Hello Xuesong - Wie geht es dir? Okay, passt!" };
+        questions_C0 = new string[] { "[Paul:] Hey, what did you have for lunch yesterday?", "[Sonia:] Alex just asked me if you want to come to the city center?", "[Stef:] Oh, what species are the wales again?", "[Daniel:] Hey, is anyone going to the gym today?", "[Stef:] What did the shark just try to swallow?" };
+        questions_C1 = new string[] { "[Julia:] Oh, I am so tired today... How about you?", "[Julia:] Any plans for the weekend?", "[Stef:] What was the name of the place that was warmer in the past? ", "[Peter:] Have you seen the rugby game last night?", "[Stef:] What was the name and colour of the fish?" };
+        questions_C2 = new string[] { "[Peter:] When did you get to the university today?", "[Stef:] What was the colour of the cat? ", "[Sandra:] Hey, we go to a restaurant later this day - wanna join?", "[Stef:] Why can’t the adult birds do anything to protect the eggs from the cat?", "[Kath:] Hey all, I am celebrating my birthday on Friday. I hope you all come! Are you free on Friday?" };
+        questions_C3 = new string[] { "[Joseph:] How is it going today?", "[Stef:] What was the colour of the flower you have just seen?  ", "[Tom:] Hey, are you still studying?", "[Stef:] For what are the plants from the rainforest used?", "[Sandro:] Hey all, can anyone invite me to the party on facebook?" };
+        questions_C4 = new string[] { "[Julian:] Do you want to have burger for dinner?", "[Stef:] Where do the female turtles lay their eggs?", "[Tom:] Sorry, I can't make it to the gym today.", "[Stef:] How does the sand affect the eggs?", "[Albert:] Alright, see you later! Can you take the grill with you?" };
     }
     void Update()
     {
